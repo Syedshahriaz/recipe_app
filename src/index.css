@@ -1,0 +1,35 @@
+body {
+  	margin: 0;
+  	padding: 0;
+  	font-family: 'Roboto', sans-serif;
+}
+.App-title>a {
+    color: #fff;
+}
+.App-title>a:hover{
+	text-decoration: none;
+}
+.active-recipe .card{
+	display: block;
+}
+.recipe-card .btn, .active-recipe__button{
+	font-size: 13px;
+}
+img.active-recipe__img {
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+.active-recipe__title, .card-title{
+	font-family: 'Open Sans', sans-serif;
+}
+.active-recipe__publisher{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.active-recipe__website{
+	margin-bottom: 0px;
+}
+.active-recipe__publisher, .active-recipe__website, .active-recipe__details{
+	font-weight: 300;
+}

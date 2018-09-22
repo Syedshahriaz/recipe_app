@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+  line-height: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App-intro {
+  font-size: large;
+}
+form.searchForm .form-control, form.searchForm .btn {
+    font-weight: 300;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.recipe-card {
+    margin-bottom: 30px;
+}
+.recipe-card img {
+    max-height: 233px;
+    max-width: 100%;
+    width: auto;
+}
+.recipe-card .card-title {
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.recipe-card .card-text{
+    font-size: 13px;
+}
