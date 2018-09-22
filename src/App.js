@@ -15,7 +15,7 @@ class App extends Component {
     e.preventDefault();
     console.log(recipeSearchForm);
 
-    const api_call = await fetch(`https://cors-anywhere.herokuapp.com/http://food2fork.com/api/search?key=${api_key}&q=${recipeSearchForm}&count=12`);
+    const api_call = await fetch(`http://food2fork.com/api/search?key=${api_key}&q=${recipeSearchForm}&count=12`);
 
     const data = await api_call.json();
     this.setState({ recipes: data.recipes });
